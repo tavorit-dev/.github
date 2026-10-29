@@ -21,9 +21,9 @@ Talvori 关注那些每天都会发生、却很少被认真对待的选择：出
 
 - **天气箴言** —— 微信小程序。把「今天会不会下雨」变成「今天该怎么安排」，读取实时气象数据，再结合你的场景给出一句能直接执行的建议。
 - **智能助手 SaaS** —— 面向团队，正在打磨中。
-- **开源** —— 核心判断逻辑、接口与数据结构会逐步开放。
+- **开源** —— 核心判断逻辑、接口与数据结构会逐步开放，目前已发布三个 Skill 项目（见下方「开源项目」）。
 
-第一批智能服务与开源项目正在整理中，准备好之后会在这里陆续出现。
+第一批智能服务正在打磨中；开源项目已经可以查看和使用。
 
 ## 从信息，到行动
 
@@ -43,11 +43,15 @@ Talvori 关注那些每天都会发生、却很少被认真对待的选择：出
 
 ## 开源项目
 
-| 项目 | 简介 | 技术 |
-| --- | --- | --- |
-| [weather-advisor-skill](https://github.com/tavorit-dev/weather-advisor-skill) | 让兼容 Skill 的 Agent 在天气建议上做到「先看证据，再给建议，输出可校验」：入口 Skill + JSON Schema + 6 组示例 + 32 条验收用例 | Markdown / JSON Schema / Python |
+我们把 Talvori 的判断逻辑拆成可复用、可检查的 Skill 开放出来：先看证据，再给建议，输出可校验。
 
-更多开源项目正在整理中。
+| 项目 | 简介 | 技术 | 许可证 |
+| --- | --- | --- | --- |
+| [weather-advisor-skill](https://github.com/tavorit-dev/weather-advisor-skill) | 让兼容 Skill 的 Agent 在天气建议上做到「先看证据，再给建议，输出可校验」：入口 Skill + JSON Schema + 6 组示例 + 32 条验收用例 | Markdown / JSON Schema / Python | Apache-2.0 |
+| [Gewu-skill](https://github.com/tavorit-dev/Gewu-skill) | 格物：从技术文章中识别真正值得可视化的原理，提取可验证的解释模型（VEM），渲染并验证准确、克制的 SVG 原理图 | Python / SVG | Apache-2.0 |
+| [ResearchScout-Skill](https://github.com/tavorit-dev/ResearchScout-Skill) | 研究侦察员：把一个研究主题变成可断点续跑、可追溯的本地知识库，发现来源、合规采集、抽取证据并导出 Markdown / CSV | Python / Markdown | 尚未确定 |
+
+更多开源项目正在整理中。欢迎从 issue 和 pull request 开始参与。
 
 ## 联系我们
 
